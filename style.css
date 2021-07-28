@@ -111,6 +111,42 @@ body{
 }
 
 .media-section{
-    height: 300px;
-    background: hotpink;
+    height: 100px;
+    margin: 20px 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(200, 196, 196), -5px -5px 10px rgb(223, 216, 216);
+    padding: 30px;
+    
+    
+    
 }
+
+
+
+.media-section>div{
+    
+    float: left;
+    margin: 0 70px;
+    
+    
+    
+}
+
+.footer{
+    height: 200px;
+    background: black;
+    margin-top: 80px;
+}
+
+.footer-text{
+   text-align: center;
+   color: white;
+   padding: 25px;
+   
+}
+
+
+.footer-text>h1>span{
+    color: orange;
+}
+
