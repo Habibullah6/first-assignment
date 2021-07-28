@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.half-width>h1{
+    font-size: 40px;
+}
+
+.half-width>h1>span{
+    color: orange;
+}
+
+
+.half-width{
+    width: 50%;
+    float: left;
+    
+    
+}
+
+.half-width>img{
+    width: 90%;
+    margin-left: 40px;
+}
+
+.text{
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 30px;
+    
+    
+}
+
+
+.order-btn, .about-btn{
+    text-decoration: none;
+    background: linear-gradient(90deg, orange , rgb(247, 81, 81));
+    padding: 12px 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.first-section{
+    height: 550px;
+    padding: 30px;
+}
+
+.second-section{
+    height: 400px;
+    background-image: url(images/bg.png);
+    background-size: 100%;
+    padding: 30px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.second-section>div{
+    width: 48%;
+    float: left;
+    
+}
+
+.second-section>div>img{
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 30px;
+    
+}
+
+.about-me{
+    box-sizing: border-box;
+    margin-top: 60px;
+    
+    
+}
+
+
+.recipies{
+
+    height: 600px;
+    text-align: center;
+    
+}
+
+.food-division>div{
+    width: 26%;
+    float: left;
+    margin: 0 20px;
+   
+    padding: 10px;
+    
+    box-shadow: 3px 3px 5px  rgb(219, 215, 215), -3px -3px 5px rgb(219, 215, 215);
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+
+.food-division{
+    margin-left: 25px;
+}
+
+.food-division>div>img{
+    width: 100%;
+}
+
+.media-section{
+    height: 300px;
+    background: hotpink;
+}
